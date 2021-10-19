@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(16, 23, 24);
+}
+
+.left-header{
+    float:left;
+}
+.right-header{
+    float:right;
+    position: relative;
+    right: 60px;
+}
+
+.header a{
+    padding: 5px;
+    margin: 10px;
+    margin-top: 40px;
+    color: #FF9595;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.content{
+    position: absolute;
+    bottom: 8rem;
+    left: 10%;
+    color: rgb(163, 161, 161);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    position:absolute;
+    bottom:5rem;
+    left: 5%;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 20px 10px;
+}
+.container2{
+    position:absolute;
+    left: 40%;
+    bottom: 5rem;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 20px 10px;
+}
+.container.card{
+    max-width: 50px;
+    height: 420px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    box-shadow: 0 5px 20px;
+
+}
+.container.card.imgbx{
+position: relative;
+top: -60px;
+right: 50px;
+left: 50px;
+min-width: initial;
+width: 300px;
+height: 300px;
+border-radius: 4px;
+z-index: 1;
+box-shadow: 0 5px 20px;
+}
+.container.card.imgbx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container.card.content2{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+}
+.quote{
+    margin-top: 2px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    max-width: 40%;
+    font-family: 'Space Mono', monospace; 
+}
+h1{
+    margin-bottom:0px ;
+    font-size: 50px;
+    font-family: 'Space Mono', monospace;  
+}
+a{
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.copyright{
+    color: #a8cfd8;
+    font-size: 1rem;
+    padding: 10px 10px;
+    float:left;
+    position: absolute;
+    bottom: 0rem;
+}
